@@ -1,0 +1,90 @@
+body {
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#mainHeader {
+    background-color:coral;
+    color: #fff;
+}
+
+#navBar {
+    background-color: #333333;
+    color: #fff;
+}
+#navBar ul {
+    padding: 0;
+    list-style: none;
+}
+#navBar li {
+    display: inline;
+}
+#navBar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#showcase {
+    background-image:url("https://www.tanikal.com/wp-content/uploads/2017/11/code-html-css-editor-boskampi.jpg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+#main {
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sideBar {
+    float: right;
+    width: 30%;
+    background: #333;
+    color: #fff;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#mainFooter {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media(max-width:600px) {
+    #main {
+        width: 100%;
+        float: none;
+    }
+
+    #sideBar {
+        width: 100%;
+        float: none;
+    }
+}
