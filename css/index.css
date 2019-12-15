@@ -60,6 +60,13 @@ body {
     box-sizing: border-box;
 }
 
+.main {
+    float: left;
+    width: 100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
 #sideBar {
     float: right;
     width: 30%;
